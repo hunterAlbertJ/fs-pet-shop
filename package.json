@@ -24,12 +24,10 @@
     "url": "https://github.com/gSchool/fs-pet-shop/issues"
   },
   "homepage": "https://github.com/gSchool/fs-pet-shop#readme",
-  "dependencies": {
-    "nodemon": "^2.0.15"
-  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^9.2.1",
+    "nodemon": "^2.0.15",
     "rewire": "^2.5.2",
     "supertest": "^6.2.2"
   }

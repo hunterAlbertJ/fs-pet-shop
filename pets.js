@@ -92,12 +92,9 @@ if (inputFromTerminal === 'destroy'){
         var parsedData = JSON.parse(data);
 
         parsedData.splice(process.argv[3], 1);
-        console.log(`Data at index ${process.argv[3]} deleted`)
-        
-
-
+        console.log(`Data at index ${process.argv[3]} deleted.`)
+    
     var toWrite = JSON.stringify(parsedData);
-    console.log('Written Successfully')
     fs.writeFileSync('./pets.json', toWrite);
         }
     });
